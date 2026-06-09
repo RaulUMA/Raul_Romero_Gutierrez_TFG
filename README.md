@@ -38,26 +38,34 @@ Para ejecutar este proyecto, es necesario disponer de **Python 3.9 o superior**.
 
 ```bash
 pip install pandas scikit-learn matplotlib seaborn datasets
-
+```
 
 Guía de Ejecución
 
 Para reproducir los experimentos presentados en la memoria del TFG, los scripts deben ejecutarse estrictamente en este orden desde la terminal:
 
-1. Obtención y preparación de datos:
+1. **Obtención y preparación de datos:**
+```bash
 python Muestras_aleatorias.py
 python Variable_Objetivo.py
+```
 
-2. Análisis exploratorio:
+2. **Análisis exploratorio:**
+```bash
 python Analisis_Exploratorio_de_datos.py
+```
 
-3. Entrenamiento y métricas de los modelos:
+3. **Entrenamiento y métricas de los modelos:**
+```bash
 python Arboles_de_decision.py
 python SVM.py
+```
 
-4. Extracción de explicabilidad y gráficas:
+4. **Extracción de explicabilidad y gráficas:**
+```bash
 python Matrices_de_confusion.py
 python Importancia_variable.py
 python Reglas_Arbol_de_decision.py
 python Analisis_Errores.py
 python Visualizar_Arbol.py
+```
